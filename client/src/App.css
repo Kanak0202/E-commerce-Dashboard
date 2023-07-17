@@ -1,0 +1,247 @@
+ body{
+  overflow-x: hidden;
+ }
+
+ .navContainer{
+  background-color:rgb(117, 255, 117);
+  display:flex;
+ }
+
+ .imgLogo{
+  height:80px;
+  width:80px;
+  margin: 2px 20px;
+ }
+ 
+ .nav-ul{
+  background-color:rgb(117, 255, 117);
+  margin-top: 0;
+  padding-top: 10px;
+  height:50px;
+  font-size: 17px;
+}
+
+.nav-ul li{
+  display: inline-block;
+  padding:20px 10px;
+}
+.nav-ul li:hover{
+  border:2px solid green;
+  background-color: rgb(143, 255, 143);;
+}
+
+.nli{
+  text-decoration: none;
+}
+
+
+.nli:hover:visited{
+  background-color: rgb(174, 255, 174);
+}
+
+.nli:visited{
+  color:black;
+}
+
+.nav-right{
+  text-align: right;
+}
+
+.nav-right-link{
+  margin-right: 20px;
+}
+
+.logContainer{
+  width:100%;
+  text-align: right;
+  margin-right: 50px;
+}
+
+.LogoutContainer{
+  margin-left: 920px;
+}
+.LogoutContainer:hover{
+  text-decoration: underline;
+}
+
+.footer{
+  text-align: center;
+  width:100%;
+  background-color:rgb(117, 255, 117);
+  height:100px;
+  padding-top:10px;
+  margin-top: 50px;
+}
+
+.loginWhiteSpace{
+  height:150px;
+}
+.signUpWhiteSpace{
+  height:101px;
+}
+.AddProductWhiteSpace{
+  height:60px;
+}
+.UpdateProductWhiteSpace{
+  height:60px;
+}
+.ProfileWhiteSpace{
+  height:450px;
+}
+
+.SignUpForm{
+  margin: 0 auto;
+  width:50%;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.SignUpForm h1{
+  font-size: 50px;
+  padding-top: 10px;
+}
+
+.FormInputContainer{
+  display:grid;
+  padding-top: 10px;
+}
+
+.inputBox{
+  width: 50%;
+  /* margin: 0 auto; */
+  padding: 5px 5px;
+  margin: 10px auto;
+}
+
+.btn{
+  margin-top:20px;
+  width:10%;
+  background-color: rgb(70, 158, 70);
+  color: white;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  background-color: rgb(90, 199, 90);
+}
+
+.error-warning{
+  color:red;
+  margin-right: 36%;
+}
+
+.ProductListContainer{
+  width:75%;
+  margin:40px auto;
+  text-align: center;
+}
+
+.ProductListContainer h1{
+  font-size: 50px;
+}
+
+.ItemList{
+  display:flex;
+  list-style: none;
+  width:94%;
+  margin:0;
+}
+
+.ProductListItem{
+  padding:20px;
+  border:1px solid rgb(90, 199, 90);
+  width:40%;
+  text-align: left;
+}
+
+.btnPList{
+  width:55px;
+  background-color: rgb(70, 158, 70);
+  margin-left:10px;
+  padding:2px;
+  color:white;
+}
+.btnPList:hover{
+  background-color: rgb(90, 199, 90);
+}
+
+.UpdateLink{
+  color:white;
+  text-decoration: none;
+}
+
+.heading{
+  font-weight: bold;
+}
+
+.searchProduct{
+  margin-bottom: 15px;
+  padding: 5px;
+  width:40%;
+  border: 1px solid rgb(39, 88, 39);
+}
+
+.noResults{
+  width:800px;
+  height:450px;
+}
+
+.ProfileContainer{
+  width:100%;
+  padding-top: 50px;
+}
+
+.ProfileContainer h1{
+  text-align: center;
+  padding-bottom: 25px;
+  font-size: 40px;
+}
+
+.ProfileData{
+  width:25%;
+  margin: 0px auto;
+  padding: 15px;
+  border: 2px solid black;
+}
+
+.ProfilePicture{
+  margin-left:140px;
+  height:100px;
+}
+
+.userData{
+  font-size: 25px;
+  font-weight: 700;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
